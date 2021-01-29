@@ -15,7 +15,7 @@ jobs:
     - name: dispatch event to another repository
       env:
         GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
-        EVENT: sub_commit1
+        EVENT: sub_commit
         ORG: lujiansong
         REPO: MyIASESource
       run: |
